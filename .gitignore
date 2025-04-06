@@ -1,0 +1,40 @@
+# created by virtualenv automatically
+.venv/Lib
+.venv/
+# Игнорируем каталоги и файлы PyCharm
+.idea/
+.idea
+idea/
+# Игнорируем виртуальные окружения
+venv/
+env/
+.venv
+# Игнорируем файлы временной кэш-памяти Python
+__pycache__/
+*.py[cod]
+
+# Игнорируем файлы SQLite
+*.sqlite3
+*.sqlite
+
+# Игнорируем файлы, специфичные для OS
+.DS_Store
+Thumbs.db
+
+# Игнорируем файлы журналов
+*.log
+
+# Игнорируем пользовательские конфигурации
+*.venv
+env
+venv
+.env
+# Игнорируем другие IDE и специфичные для OS файлы
+.vscode/
+*.swp
+*.swo
+
+# Игнорируем билд артефакты
+dist/
+build/
+*.egg-info/
